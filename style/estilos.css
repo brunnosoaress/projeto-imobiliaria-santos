@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+}
+
+#cabecalho {
+    background-color: #b2e0fc;
+    margin-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+#cabecalho img {
+    width: 180px;
+    margin-bottom: 20px;
+}
+
+#cabecalho nav, a {
+    color: #000000;
+    word-spacing: 15px;
+    font-size: 18px;
+}

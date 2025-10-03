@@ -10,6 +10,14 @@ body {
     font-family: Verdana, sans-serif;
 }
 
+span {
+    color: #0082d2;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
 #cabecalho {
     background-color: #b2e0fc;
     margin-bottom: 30px;
@@ -26,4 +34,35 @@ body {
     color: #000000;
     word-spacing: 15px;
     font-size: 18px;
+}
+
+#secao-sobre {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+#secao-sobre #banner {
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1100px;
+}
+
+#secao-sobre h2 {
+    font-weight: normal;
+    margin-top: 7px;
+}
+
+#secao-sobre img {
+    width: 400px;
+    margin: 20px 0;
+}
+
+#secao-sobre p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#secao-servicos {
+    background-color: #3391ef;
+    height: 700px;
 }

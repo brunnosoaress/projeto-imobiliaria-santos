@@ -10,12 +10,25 @@ body {
     font-family: Verdana, sans-serif;
 }
 
-span {
+.texto-azul {
     color: #0082d2;
 }
 
 .negrito {
     font-weight: bold;
+}
+
+.texto-amarelo {
+    color: #ffff00;
+    font-weight: bold;
+}
+
+.tamanho-subtitulo {
+    font-size: 29px;
+}
+
+.fundo-azul {
+    background-color: #278cf0;
 }
 
 #cabecalho {
@@ -63,6 +76,44 @@ span {
 }
 
 #secao-servicos {
-    background-color: #3391ef;
-    height: 700px;
+    color: #ffffff;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#secao-servicos h3 {
+    margin-bottom: 70px;
+}
+
+#secao-servicos p {
+    font-size: 21px;
+    line-height: 33px;
+    margin-bottom: 30px;
+}
+
+#secao-servicos ul {
+    margin-top: 60px;
+    list-style-position: inside;
+}
+
+#secao-servicos li {
+    margin-bottom: 30px;
+}
+
+#secao-corretores {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#secao-corretores img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+#secao-corretores p {
+    text-align: start;
+    margin: 20px;
+    line-height: 24px;
 }

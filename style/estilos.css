@@ -7,7 +7,7 @@
 
 body {
     text-align: center;
-    font-family: Verdana, sans-serif;
+    font-family: Tahoma, sans-serif;
 }
 
 .texto-azul {
@@ -49,6 +49,11 @@ body {
     font-size: 18px;
 }
 
+#cabecalho a {
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+
 #secao-sobre {
     width: 1100px;
     margin: 0 auto;
@@ -66,7 +71,7 @@ body {
 }
 
 #secao-sobre img {
-    width: 400px;
+    width: 450px;
     margin: 20px 0;
 }
 
@@ -97,6 +102,8 @@ body {
 }
 
 #secao-servicos li {
+    text-align: start;
+    margin-left: 870px;
     margin-bottom: 30px;
 }
 
@@ -117,3 +124,60 @@ body {
     margin: 20px;
     line-height: 24px;
 }
+
+#secao-corretores a {
+    color: #025d95;
+}
+
+#secao-contato {
+    height: 700px;
+    padding-bottom: 70px;
+}
+
+#secao-contato h3 {
+    color: #ffffff;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+#secao-contato .mapa {
+    width: 850px;
+    height: 400px;
+}
+
+#secao-contato #paragrafo-contato {
+    width: 870px;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    padding: 15px;
+    text-align: center;
+    background-color: #232323f0;
+    color: #ffffff;
+}
+
+#secao-contato .escritorios {
+    background-color: #ffffff;
+    width: 220px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+#secao-contato a {
+    word-spacing: 3px;
+}
+
+#secao-contato .tamanho-escritorio-centro {
+    width: 175px;
+}
+
+#secao-contato .tamanho-escritorio-meler {
+    width: 140px;
+}
+
+footer {
+    padding: 10px;
+}
+
+
